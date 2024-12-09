@@ -1,7 +1,6 @@
 import styles from './ProjectsStyles.module.css';
-import viberr from '../../assets/viberr.png';
-import freshBurger from '../../assets/fresh-burger.png';
-import hipsster from '../../assets/hipsster.png';
+import quiz from '../../assets/quiz.jpg';
+import newscatcher from '../../assets/news.jpg';
 import fitLift from '../../assets/fitlift.png';
 import ProjectCard from '../../common/ProjectCard';
 
@@ -11,28 +10,23 @@ function Projects() {
       <h1 className="sectionTitle">Projects</h1>
       <div className={styles.projectsContainer}>
         <ProjectCard
-          src={viberr}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Viberr"
-          p="Streaming App"
+          src={quiz}
+          link="https://github.com/Olamaryse/appquiz.git/ "
+          h3="Quizzzez"
+          p="Quiz App"
         />
         <ProjectCard
-          // src={freshBurger}
-          // link="https://github.com/Ade-mir/company-landing-page-2"
-          // h3="Fresh Burger"
-          // p="Hamburger Restaurant"
+          src={newscatcher}
+          link="https://github.com/Olamaryse/News-Catcher/"
+          h3="News Catchter"
+          p="News Outlet"
         />
+      
         <ProjectCard
-          // src={hipsster}
-          // link="https://github.com/Ade-mir/company-landing-page-2"
-          // h3="Hipsster"
-          // p="Glasses Shop"
-        />
-        <ProjectCard
-          // src={fitLift}
-          // link="https://github.com/Ade-mir/company-landing-page-2"
-          // h3="FitLift"
-          // p="Fitness App"
+          src={fitLift}
+          link="https://github.com/Olamaryse/exercise-app.git/"
+          h3="FitLift"
+          p="Fitness App"
         />
       </div>
     </section>
