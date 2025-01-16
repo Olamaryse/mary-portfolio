@@ -11,8 +11,8 @@ function Projects() {
       <div className={styles.projectsContainer}>
         <ProjectCard
           src={poke}
-          link="https://github.com/Olamaryse/appquiz.git/ "
-          h3="PokeMemory"
+          link="pokamemory.netlify.app"
+          h3="PokaMemory"
           p="Memory Game"
         />
         <ProjectCard
